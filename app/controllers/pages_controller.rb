@@ -2,8 +2,6 @@ class PagesController < ApplicationController
   def home
   	@disable_nav = true
   end
-  def store
-  end
   def city
   end
   def search
@@ -18,5 +16,7 @@ class PagesController < ApplicationController
   def orders
   end
   def apple
+  end
+  def hd
   end
 end

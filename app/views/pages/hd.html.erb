@@ -14,15 +14,38 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav secondary">
-          <li><a href="#">"Apple Products"</a></li>
+          <li><a href="#"><b>All</b></a></li>
+          <li><a href="#">Salads</a></li>
+          <li><a href="#">Sandwiches</a></li>
+          <li><a href="#">Mezza</a></li>
+          <li><a href="#">Grilled Entrees</a></li>
+          <li><a href="#">Chef's Specials</a></li>
+          <li><a href="#">Soups</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Sides</a></li>
+              <li><a href="#">Drinks</a></li>
+              <li><a href="#">Desserts</a></li>
+            </ul>
+          </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Most Popular <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#">Price: Hi to Lo</a></li>
-              <li><a href="#">Price: Lo to Hi</a></li>
+              <li><a href="#">Price: High to Low</a></li>
+              <li><a href="#">Price: Low to High</a></li>
               <li><a href="#">Newest</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mens <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Womens</a></li>
+              <li><a href="#">Mens/Womens</a></li>
               <li role="separator" class="divider"></li>
               <li><a href="#">Separated link</a></li>
             </ul>
@@ -34,46 +57,61 @@
               <li><a href="#">S</a></li>
               <li><a href="#">M</a></li>
               <li role="separator" class="divider"></li>
-              <li><a href="#">XL</a></li>
+              <li><a href="#">L</a></li>
             </ul>
           </li>
         </ul>
       </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-<div class="col-lg-10 col-lg-offset-1">
-  <br />
 
+<div class="col-lg-10 col-lg-offset-1">
+	<br />
+	<img class="center-block" src="http://www.baraondaatlanta.com/styles/logo-2012-01-17.png" />
+	<br />
+
+	<div class="row">
+	  <div class="col-lg-4 col-sm-4 col-xs-6 thumb">
+	      <a class="thumbnail" data-toggle="modal" data-target="#myModal">
+          <h3>Babylon Salad</h3>
+          <h4>$10</h4>
+	        <img class="img-responsive" src="http://i.imgur.com/3osEiUn.png" alt="">
+	      </a>
+	  </div>
+	  <div class="col-lg-4 col-sm-4 col-xs-6 thumb">
+	      <a class="thumbnail" href="#">
+          <h3>Hummus</h3>
+          <h4>$12</h4>
+	        <img class="img-responsive" src="http://i.imgur.com/6d2Qodn.png" alt="">
+	      </a>
+	  </div>
+	  <div class="col-lg-4 col-sm-4 col-xs-6 thumb">
+	      <a class="thumbnail" href="#">
+          <h3>Hummus</h3>
+          <h4>$12</h4>
+	        <img class="img-responsive" src="http://i.imgur.com/aR2esog.png" alt="">
+	      </a>
+	  </div>
+	</div>
   <div class="row">
     <div class="col-lg-4 col-sm-4 col-xs-6 thumb">
         <a class="thumbnail" data-toggle="modal" data-target="#myModal">
-            <img class="img-responsive" src="http://i.imgur.com/nc9fvA3.png?1" alt="">
+          <h3>Falafel</h3>
+          <h4>$12</h4>
+          <img class="img-responsive" src="http://i.imgur.com/LtULw8W.png" alt="">
         </a>
     </div>
     <div class="col-lg-4 col-sm-4 col-xs-6 thumb">
         <a class="thumbnail" href="#">
-            <img class="img-responsive" src="http://i.imgur.com/WltKs2s.png" alt="">
+        <h3>Falafel</h3>
+          <h4>$12</h4>
+            <img class="img-responsive" src="http://i.imgur.com/060J4Jl.png" alt="">
         </a>
     </div>
     <div class="col-lg-4 col-sm-4 col-xs-6 thumb">
         <a class="thumbnail" href="#">
-            <img class="img-responsive" src="http://i.imgur.com/sBwg6yl.png" alt="">
-        </a>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-4 col-sm-4 col-xs-6 thumb">
-        <a class="thumbnail" data-toggle="modal" data-target="#myModal">
-            <img class="img-responsive" src="http://i.imgur.com/A4Cu7bR.png" alt="">
-        </a>
-    </div>
-    <div class="col-lg-4 col-sm-4 col-xs-6 thumb">
-        <a class="thumbnail" href="#">
-            <img class="img-responsive" src="http://i.imgur.com/ofLoyuf.png" alt="">
-        </a>
-    </div>
-    <div class="col-lg-4 col-sm-4 col-xs-6 thumb">
-        <a class="thumbnail" href="#">
+        <h3>Falafel</h3>
+          <h4>$12</h4>
             <img class="img-responsive" src="http://i.imgur.com/oRYwU19.png" alt="">
         </a>
     </div>
@@ -116,7 +154,7 @@
 
 <div class="row text-center">
   <div class="col-lg-12">
-    <ul class="pagination">
+	  <ul class="pagination">
       <li>
         <a href="#">«</a>
       </li>
@@ -138,7 +176,7 @@
       <li>
         <a href="#">»</a>
       </li>
-    </ul>
+	  </ul>
   </div>
 </div>
 
@@ -151,19 +189,19 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <div class="col-xs-8">
-          <h4 class="modal-heading">Clothing Name - Store Name</h4>
+        	<h4 class="modal-heading">Clothing Name - Store Name</h4>
         </div>
         <div class="clearfix"></div>
       </div>
       <div class="modal-body">
-        <div class="col-md-12">
-          <img src="http://i.imgur.com/h33FTAn.png" class="img-responsive"/>
-        </div>
-        <div class="clearfix"></div>
+      	<div class="col-md-12">
+      		<img src="https://img.trycaviar.com/VLYIDp7ekjDA8QoRxqkR2M4hu9o=/1134x756/https://s3.amazonaws.com/trycaviar.com/offers/1800/64885-201508030425.jpg" class="img-responsive"/>
+      	</div>
+      	<div class="clearfix"></div>
       </div>
 
-      <div class="modal-footer">
-        <div class="col-xs-12">
+    	<div class="modal-footer">
+      	<div class="col-xs-12">
           <form class="new_cloth_instance" id="new_cloth_instance" action="/cart/add" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="patch"><input type="hidden" name="authenticity_token" value="8226/mApBxw72z2PTDUf5iKMkaXzxuv8RCx2uLBAcXDB4vZHraX3px2sp2/ctkl8uWHx3HfVK9uZn8zcJDFqBw==">
             <input name="quantity" value="1" type="hidden" id="cloth_instance_quantity">
             <input value="8" type="hidden" name="cloth_instance[store_id]" id="cloth_instance_store_id">
@@ -175,16 +213,16 @@
               <select class="form-control js-color-select" name="cloth_instance[cloth_variant_id]" id="cloth_instance_cloth_variant_id"><option value="100">Blue</option></select>
             </div>
             <div class="col-xs-2 col-xs-offset-1">
-              <h3 style="margin-top:0px;">$172</h3>
-            </div>
+            	<h3 style="margin-top:0px;">$172</h3>
+          	</div>
             <br><br>
             <div class="col-xs-12">
               <button type="button" class="btn btn-block green btn-success" data-dismiss="modal">
-                <i class="fa fa-plus"></i> Add
-              </button>
-            </div>
-          </form>
-        </div>
+      					<i class="fa fa-plus"></i> Add
+      				</button>
+						</div>
+					</form>
+				</div>
       </div>
     </div>
   </div>

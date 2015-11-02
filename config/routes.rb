@@ -3,13 +3,13 @@ Rails.application.routes.draw do
 
     get '/city' => 'pages#city'
     get '/search'=> 'pages#search'
-    get '/store'=> 'pages#store'
     get '/account' => 'pages#account'
     get '/partner' => 'pages#partner'
     get '/cart' => 'pages#cart'
     get '/checkout' => 'pages#checkout'
     get '/orders' => 'pages#orders'
     get '/apple' => 'pages#apple'
+    get '/hd' => 'pages#hd'
 
     get '/terms' => 'pages#terms'
     get '/privacy' => 'pages#privacy'
