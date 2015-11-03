@@ -81,13 +81,18 @@ $panel-default-border: 0px;
   width: 60px;
 }
 .landing-address {
-  height: 70px !important;
-  font-size: 27px !important;
+  height: 62px !important;
+  font-size: 25px !important;
   border: 1px solid #f0f0f0 !important;
   box-shadow: none !important;
   background: rgba(0,0,0,.2) !important;
   color: #fff !important;
 }
+.landing-address::-webkit-input-placeholder { color: #f0f0f0 !important;}
+.landing-address:-moz-placeholder { color: #f0f0f0 !important;}
+.landing-address::-moz-placeholder { color: #f0f0f0 !important;}
+.landing-address:-ms-input-placeholder { color: #f0f0f0 !important;}
+
 .landing-button {
   color: #444 !important;
   border: 1px solid #f0f0f0 !important;
@@ -95,13 +100,13 @@ $panel-default-border: 0px;
 }
 
 .landing-header {
-  background-image: url("http://i.imgur.com/Szlkc2P.png") !important;
+  background-image: url("http://i.imgur.com/iFLP5WN.jpg") !important;
   background-size: 100% 100% !important;
   background-color: #666 !important;
   h1 {
     color: #fff !important;
     font-family: 'Raleway', sans-serif;
-    font-size:80px !important;
+    font-size:60px !important;
     text-shadow: 0 0 2px rgba(0,0,0,0.6);
   }
   h2 {
