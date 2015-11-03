@@ -82,20 +82,21 @@ $panel-default-border: 0px;
 }
 .landing-address {
   height: 70px !important;
-  font-size: 30px !important;
+  font-size: 27px !important;
   border: 1px solid #f0f0f0 !important;
   box-shadow: none !important;
-  background: rgba(0,0,0,.4) !important;
-  color: #f0f0f0 !important;
+  background: rgba(0,0,0,.2) !important;
+  color: #fff !important;
 }
 .landing-button {
-  color: red !important;
+  color: #444 !important;
   border: 1px solid #f0f0f0 !important;
   background: #f0f0f0!important;
 }
 
 .landing-header {
-  background-image: url("http://i.imgur.com/jDKkUte.png") !important;
+  background-image: url("http://i.imgur.com/Szlkc2P.png") !important;
+  background-size: 100% 100% !important;
   background-color: #666 !important;
   h1 {
     color: #fff !important;
