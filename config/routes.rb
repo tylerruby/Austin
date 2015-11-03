@@ -10,6 +10,7 @@ Rails.application.routes.draw do
     get '/orders' => 'pages#orders'
     get '/apple' => 'pages#apple'
     get '/hd' => 'pages#hd'
+    get 'essentials' => 'pages#essentials'
 
     get '/terms' => 'pages#terms'
     get '/privacy' => 'pages#privacy'
