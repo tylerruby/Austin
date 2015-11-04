@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 $body-bg: #fafafa;
-$navbar-inverse-bg: #444;
+$navbar-inverse-bg: #292F36;
 $navbar-inverse-border: none;
 $navbar-default-link-active-bg: rgba(231,231,231,.7);
 $panel-default-border: 0px;
@@ -14,7 +14,8 @@ $panel-default-border: 0px;
   border: none !important;
 }
 .panel-heading {
-  background:#fff !important;
+  background: #fff !important;
+  border-bottom: 3px solid #fafafa !important;
 
 }
 .affix {
@@ -37,14 +38,14 @@ $panel-default-border: 0px;
   background: rgba(255,255,255,.9) !important;
 }
 .navbar-form .form-control {
-  background: #333 !important;
+  background: #1e2228 !important;
   border: none !important;
   color:#fff !important;
 }
 .btn-search {
-  background: #333 !important;
+  background: #1e2228 !important;
   color: #fff !important;
-  border-color: #333 !important;
+  border-color: #1e2228 !important;
 }
 .cart {
   padding-bottom:5px !important;
@@ -85,7 +86,7 @@ $panel-default-border: 0px;
   font-size: 25px !important;
   border: 1px solid #f0f0f0 !important;
   box-shadow: none !important;
-  background: rgba(0,0,0,.2) !important;
+  background: rgba(41,47,54,.4) !important;
   color: #fff !important;
 }
 .landing-address::-webkit-input-placeholder { color: #f0f0f0 !important;}
@@ -94,13 +95,13 @@ $panel-default-border: 0px;
 .landing-address:-ms-input-placeholder { color: #f0f0f0 !important;}
 
 .landing-button {
-  color: #444 !important;
+  color: #FF6B6B !important;
   border: 1px solid #f0f0f0 !important;
   background: #f0f0f0!important;
 }
 
 .landing-header {
-  background-image: url("http://i.imgur.com/utHMCtT.png") !important;
+  background-image: url("http://i.imgur.com/BEHunzq.jpg") !important;
   background-size: 100% 100% !important;
   background-color: #666 !important;
   h1 {
