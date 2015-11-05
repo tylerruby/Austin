@@ -86,7 +86,7 @@ $panel-default-border: 0px;
   font-size: 25px !important;
   border: 1px solid #f0f0f0 !important;
   box-shadow: none !important;
-  background: rgba(0,0,0,.4) !important;
+  background: rgba(0,0,0,.2) !important;
   color: #fff !important;
 }
 .landing-address::-webkit-input-placeholder { color: #f0f0f0 !important;}
@@ -103,7 +103,7 @@ $panel-default-border: 0px;
 .landing-header {
   background-image: url("http://i.imgur.com/KaXfeov.png") !important;
   background-size: 100% 100% !important;
-  background-color: #666 !important;
+  background-color: #444 !important;
   h1 {
     color: #fff !important;
     font-family: 'Raleway', sans-serif;
@@ -414,5 +414,58 @@ textarea:focus, input[type="text"]:focus,textarea[type="text"]:focus,   input[ty
     float: left;
     width: 250px;
   }
+}
+
+/* Pricing Tables */
+
+.pricing-tables {
+    padding: 20px;
+}
+.plan {
+    box-shadow: 0 2px 2px rgba(10, 10, 10, 0.06);
+    min-height: 100px;
+    background: #fff;
+    border-radius: 4px;
+    margin: 20px 0;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.plan .head {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 12px 16px;
+    background: #1c1c1c;
+    color: #fff;
+    margin-bottom:20px;
+}
+.plan .head2 {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 12px 16px;
+    color: #fff;
+    background: #666;
+}
+.plan .head h1, .plan .head h2, .plan .head h3 {
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+}
+.plan ul {
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 2px;
+}
+.plan ul li {
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.plan ul strong {
+    font-weight: 700;
+}
+.plan .btn {
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
