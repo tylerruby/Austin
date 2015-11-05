@@ -23,7 +23,9 @@ $panel-default-border: 0px;
     width: 100% !important;
     z-index: 1 !important;
 }
-
+.thin-text {
+  font-weight:100;
+}
 /* Jumbotrons */
 .jumbotron {
   margin-bottom: 0px !important;
@@ -213,6 +215,11 @@ $panel-default-border: 0px;
   background: #34bf49 !important;
   border-color: #34bf49 !important;
   color: #fff !important;
+}
+.white {
+  background: #fff !important;
+  border-color: #fff !important;
+  color: #222 !important;
 }
 
 /* Pagination */
