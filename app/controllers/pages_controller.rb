@@ -7,7 +7,7 @@ class PagesController < ApplicationController
   end
   def account
   end
-  def partner
+  def drivers
     @disable_nav = true
   end
   def cart

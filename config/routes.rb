@@ -4,7 +4,7 @@ Rails.application.routes.draw do
     get '/city' => 'pages#city'
     get '/search'=> 'pages#search'
     get '/account' => 'pages#account'
-    get '/partner' => 'pages#partner'
+    get '/drivers' => 'pages#drivers'
     get '/cart' => 'pages#cart'
     get '/checkout' => 'pages#checkout'
     get '/orders' => 'pages#orders'
