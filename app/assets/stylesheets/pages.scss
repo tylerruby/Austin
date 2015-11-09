@@ -55,13 +55,23 @@ $panel-default-border: 0px;
 .profile {
   width:30px;
 }
-
+/* Backgrounds Homepage */
+.car-background {
+  background: -webkit-linear-gradient(60deg, #333, #000);
+  background: -o-linear-gradient(60deg, #333, #000);
+  background: -moz-linear-gradient(60deg, #333, #000);
+  background: linear-gradient(60deg, #333, #000);
+  color:#fff !important;
+}
+.reasons-background {
+  background: #fff url(http://i.imgur.com/SICJBT9.jpg) repeat left top;
+}
 /* Partner Page */
 .partner-header {
-  background: -webkit-linear-gradient(60deg, #222, #777);
-  background: -o-linear-gradient(60deg, #222, #777);
-  background: -moz-linear-gradient(60deg, #222, #777);
-  background: linear-gradient(60deg, #222, #777);
+  background: -webkit-linear-gradient(60deg, #222, #555);
+  background: -o-linear-gradient(60deg, #222, #555);
+  background: -moz-linear-gradient(60deg, #222, #555);
+  background: linear-gradient(60deg, #222, #555);
   h1 {
     color: #fff !important;
     font-family: 'Raleway', sans-serif;
