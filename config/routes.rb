@@ -9,8 +9,7 @@ Rails.application.routes.draw do
     get '/checkout' => 'pages#checkout'
     get '/orders' => 'pages#orders'
     get '/apple' => 'pages#apple'
-    get '/baraonda' => 'pages#baraonda'
-    get '/instant' => 'pages#instant'
+    get '/store' => 'pages#store'
     
     get '/terms' => 'pages#terms'
     get '/privacy' => 'pages#privacy'
