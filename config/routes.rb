@@ -1,16 +1,13 @@
 Rails.application.routes.draw do
   root 'pages#home'
 
-    get '/city' => 'pages#city'
     get '/search'=> 'pages#search'
     get '/account' => 'pages#account'
     get '/drivers' => 'pages#drivers'
     get '/cart' => 'pages#cart'
     get '/checkout' => 'pages#checkout'
     get '/orders' => 'pages#orders'
-    get '/apple' => 'pages#apple'
     get '/store' => 'pages#store'
-    get '/store2' => 'pages#store2'
     
     get '/terms' => 'pages#terms'
     get '/privacy' => 'pages#privacy'

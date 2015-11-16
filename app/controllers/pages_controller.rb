@@ -1,8 +1,6 @@
 class PagesController < ApplicationController
   def home
   end
-  def city
-  end
   def search
   end
   def account
@@ -14,12 +12,7 @@ class PagesController < ApplicationController
   end
   def orders
   end
-  def apple
-  end
-  def hd
-  end
+
   def store
-  end
-  def store2
   end
 end
