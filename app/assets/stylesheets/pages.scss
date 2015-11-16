@@ -156,9 +156,37 @@ h1, h2, h3, h4 {
 
 /* Images */
 
+.store-header {
+  margin-bottom:2px;
+  padding-left:2px;
+  padding-right:2px;
+  h1 {
+    position:absolute;
+    top:4%;
+    font-size:35px;
+    text-align: center !important;
+    color: #fff;
+    width: 100%;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    font-family: 'Product Sans', Arial, sans-serif !important;
+    z-index:1 !important;
+  }
+  h2 {
+    position:absolute;
+    top:7%;
+    font-size:20px;
+    text-align: center !important;
+    color: #fff;
+    width: 100%;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    font-family: 'Product Sans', Arial, sans-serif !important;
+  }
+}
+
 .block-images {
   padding-left:1px !important;
   padding-right:1px !important;
+  padding-bottom:1px !important;
 }
 .col-md-12 {
   padding: 0px !important;
