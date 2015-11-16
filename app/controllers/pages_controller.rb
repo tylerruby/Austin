@@ -1,8 +1,6 @@
 class PagesController < ApplicationController
   def home
   end
-  def search
-  end
   def account
   end
   def drivers
@@ -12,7 +10,6 @@ class PagesController < ApplicationController
   end
   def orders
   end
-
   def store
   end
 end

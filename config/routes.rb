@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   root 'pages#home'
 
-    get '/search'=> 'pages#search'
     get '/account' => 'pages#account'
     get '/drivers' => 'pages#drivers'
     get '/cart' => 'pages#cart'
