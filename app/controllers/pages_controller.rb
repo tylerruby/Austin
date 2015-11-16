@@ -18,4 +18,8 @@ class PagesController < ApplicationController
   end
   def hd
   end
+  def store
+  end
+  def store2
+  end
 end
