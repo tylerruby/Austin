@@ -4,11 +4,10 @@ $navbar-inverse-border: none;
 $navbar-default-link-active-bg: rgba(231,231,231,.7);
 $panel-default-border: 0px;
 
+/* Misc */
 h1, h2, h3, h4 {
   font-family: 'Raleway', sans-serif !important;
 }
-
-/* Misc */
 .panel {
   border: none !important;
 }
@@ -169,7 +168,7 @@ h1, h2, h3, h4 {
     width: 100%;
     text-shadow: 0 1px 3px rgba(0,0,0,0.6);
     font-family: 'Product Sans', Arial, sans-serif !important;
-    z-index:1 !important;
+    z-index:0 !important;
   }
   h2 {
     position:absolute;
@@ -219,7 +218,7 @@ h1, h2, h3, h4 {
   h3 {
     position:absolute;
     top:30%;
-    font-size:30px;
+    font-size:25px;
     text-align: center !important;
     color: #fff;
     width: 100%;
@@ -235,7 +234,7 @@ h1, h2, h3, h4 {
     color: #fff;
     width: 20%;
     font-family: 'Product Sans', Arial, sans-serif !important;
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 .thumbnail:hover {
