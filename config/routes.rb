@@ -7,6 +7,7 @@ Rails.application.routes.draw do
     get '/checkout' => 'pages#checkout'
     get '/orders' => 'pages#orders'
     get '/store' => 'pages#store'
+    get '/new' => 'pages#new'
     
     get '/terms' => 'pages#terms'
     get '/privacy' => 'pages#privacy'
