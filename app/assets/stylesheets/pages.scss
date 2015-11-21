@@ -519,4 +519,15 @@ ul.navbar-nav > li > a {
 ul.nav.navbar-nav.secondary > li.active > a {
     border-bottom: 2px solid #333333;
 }
+@media (max-width: 480px) {
+  .items-list, .items-list > div {
+      padding: 0 !important;
+  }
+  .items-list .panel-default {
+      margin-bottom:  0 !important;
+  }
+  br.items-list-break {
+      display: none;
+  }
+}
 
