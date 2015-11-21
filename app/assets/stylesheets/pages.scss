@@ -358,7 +358,7 @@ textarea:focus, input[type="text"]:focus,textarea[type="text"]:focus,   input[ty
 .footer {
   border-top: 1px solid #e7e7e7;
   background:#fff;
-  color:#555;
+  color:#333;
   width:100%;
   display: inline-block;
   img {
@@ -372,7 +372,7 @@ textarea:focus, input[type="text"]:focus,textarea[type="text"]:focus,   input[ty
 .footer-link {
   padding:10px;
   a {
-    color:#444;
+    color:#000;
   }
   a:hover {
     color:#222;
@@ -502,7 +502,6 @@ ul.nav.navbar-nav.secondary > li > a {
 }
 
 ul.nav.navbar-nav.secondary {
-    text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
 }
 .navbar.navbar-default {
