@@ -8,6 +8,7 @@ Rails.application.routes.draw do
     get '/orders' => 'pages#orders'
     get '/store' => 'pages#store'
     get '/lunch' => 'pages#lunch'
+    get '/dinner' => 'pages#dinner'
     
     get '/terms' => 'pages#terms'
     get '/privacy' => 'pages#privacy'

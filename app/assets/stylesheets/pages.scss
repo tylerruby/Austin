@@ -100,32 +100,28 @@ h1, h2, h3, h4 {
 
 .landing-button {
   color: #fff !important;
-  border: 1px solid #34bf49 !important;
-  background: #34bf49 !important;
+  border: 1px solid #000 !important;
+  background: #000 !important;
 }
 
 .landing-header {
   background-size: 100% 100% !important;
-  background-color: #222 !important;
+  background-color: #f0f0f0 !important;
   h1 {
-    color: #fff !important;
+    color: #000 !important;
     font-size:50px !important;
-    text-shadow: 0 0 2px rgba(0,0,0,0.6);
   }
   h2 {
-    color: #fff !important;
+    color: #000 !important;
     font-size: 38px !important;
-    text-shadow: 0 0 2px rgba(0,0,0,0.6);
   }
   h3 {
-    color: #f0f0f0 !important;
+    color: #222 !important;
     font-size:28px !important;
-    text-shadow: 0 0 2px rgba(0,0,0,0.6);
   }
   h4 {
-    color: #f0f0f0 !important;
+    color: #222 !important;
     font-size:20px !important;
-    text-shadow: 0 0 2px rgba(0,0,0,0.6);
   }
 }
 .landing-image {
@@ -240,6 +236,9 @@ h1, h2, h3, h4 {
 @media (min-width: 768px) {
   .modal-dialog {
     width: 480px !important;
+  }
+  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left:0px !important;
   }
 }
 .modal-heading {
@@ -357,7 +356,7 @@ textarea:focus, input[type="text"]:focus,textarea[type="text"]:focus,   input[ty
 .footer {
   border-top: 1px solid #e7e7e7;
   background:#fff;
-  color:#333;
+  color:#666;
   width:100%;
   display: inline-block;
   img {
@@ -371,7 +370,7 @@ textarea:focus, input[type="text"]:focus,textarea[type="text"]:focus,   input[ty
 .footer-link {
   padding:10px;
   a {
-    color:#000;
+    color:#666;
   }
   a:hover {
     color:#222;
@@ -388,8 +387,10 @@ textarea:focus, input[type="text"]:focus,textarea[type="text"]:focus,   input[ty
 }
 @media (max-width: 767px) {
 
+
   #primary-nav .navbar-brand {
     padding: 15px 10px !important;
+
   }
   #primary-nav .navbar-header{
     float: left;
@@ -473,10 +474,6 @@ textarea:focus, input[type="text"]:focus,textarea[type="text"]:focus,   input[ty
   float: left !important;
 }
 
-.navbar-nav.navbar-right:last-child {
-  margin-right: -15px !important;
-}
-
 .navbar-right {
   float: right!important;
 }
@@ -523,14 +520,14 @@ ul.nav.navbar-nav.secondary > li.active > a {
       padding: 0 !important;
   }
   .items-list .panel-default {
-      margin-bottom:  0 !important;
+      margin-bottom:  5px !important;
   }
   br.items-list-break {
       display: none;
   }
 }
 
-.panel-body {
+ .food-items {
   height: 170px;
 }
 
